@@ -7,6 +7,7 @@ import { RegistryComponent } from './pages/registry/registry.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { InputItemComponent } from './components/input-item/input-item.component';
+import { StartComponent } from './pages/start/start.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { InputItemComponent } from './components/input-item/input-item.component
     RegistryComponent,
     HomeComponent,
     LoginComponent,
-    InputItemComponent
+    InputItemComponent,
+    StartComponent
   ],
   imports: [
     BrowserModule,
