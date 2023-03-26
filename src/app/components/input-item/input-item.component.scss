@@ -10,9 +10,12 @@
   label {
     font-weight: bold;
     color: colors.$secondary;
+    margin-bottom: .4rem;
   }
   input {
     padding: 10px;
-    border: none;
+    border: 1px solid colors.$white;
+    border-radius: 100px;
+    background-color: transparent;
   }
 }

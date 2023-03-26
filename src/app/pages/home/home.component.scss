@@ -1,0 +1,62 @@
+@use "../../../theme/colors";
+@use "../../../theme/fonts";
+@use "../../../theme/media";
+
+main {
+  background-color: colors.$primary;
+  padding: .5em 8%;
+
+  .messages-list {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.header-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .header-logo {
+    width: 30vw;
+    img {
+      width: 100%;
+    }
+  }
+
+  .hader-actions {
+    display: flex;
+
+    .new-massages-actions {
+      position: relative;
+      span {
+        position: absolute;
+        top: -5px;
+        left: -5px;
+        height: 13px;
+        width: 13px;
+        font-size: .6rem;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-color: colors.$secondary;
+      }
+    }
+
+    .menu-actions {
+      margin-left: 1em;
+    }
+  }
+}
+
+.create-message {
+  margin: 2em 0 4em 0;
+  .create-message-title {
+    color: colors.$secondary;
+    font-size: 2rem;
+  }
+  form {
+    margin: 1em 0;
+  }
+}

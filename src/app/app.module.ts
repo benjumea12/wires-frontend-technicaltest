@@ -8,6 +8,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { InputItemComponent } from './components/input-item/input-item.component';
 import { StartComponent } from './pages/start/start.component';
+import { CardMessageComponent } from './components/card-message/card-message.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { StartComponent } from './pages/start/start.component';
     HomeComponent,
     LoginComponent,
     InputItemComponent,
-    StartComponent
+    StartComponent,
+    CardMessageComponent
   ],
   imports: [
     BrowserModule,
