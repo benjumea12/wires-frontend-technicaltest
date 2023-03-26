@@ -1,0 +1,77 @@
+@use "../../../theme/colors";
+@use "../../../theme/fonts";
+@use "../../../theme/media";
+
+.header {
+  img {
+    width: 100vw;
+    margin-bottom: -10px;
+  }
+  .title {
+    padding: 0.8em 8%;
+    background: rgb(80, 87, 94);
+    background: linear-gradient(
+      180deg,
+      rgba(80, 87, 94, 1) 0%,
+      rgba(25, 35, 45, 1) 100%
+    );
+    h1 {
+      font-size: 1.7rem;
+      color: #ffffff;
+    }
+  }
+}
+
+form {
+  padding: 2em 5%;
+
+  .form-title {
+    text-align: center;
+    color: colors.$secondary;
+  }
+
+  .inputs-list {
+    margin-top: 2em;
+    margin-bottom: 3em;
+  }
+
+  .form-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.6rem;
+    color: #727272;
+    margin-top: 3em;
+    .rights {
+      display: flex;
+      span {
+        height: 6px;
+        width: 1px;
+        background-color: #727272;
+        margin: 0 5px;
+      }
+      a {
+        color: colors.$secondary;
+      }
+    }
+  }
+}
+
+.checkbox-item {
+  display: flex;
+  label {
+    margin-left: 10px;
+    font-weight: bold;
+    color: colors.$secondary;
+  }
+}
+
+.button-form {
+  border: none;
+  width: 100%;
+  padding: 0.5em;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  background-color: #d9d9d9;
+}

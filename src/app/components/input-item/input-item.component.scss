@@ -1,0 +1,18 @@
+@use "../../../theme/colors";
+@use "../../../theme/fonts";
+@use "../../../theme/media";
+
+
+.input-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  label {
+    font-weight: bold;
+    color: colors.$secondary;
+  }
+  input {
+    padding: 10px;
+    border: none;
+  }
+}
