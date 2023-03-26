@@ -1,0 +1,7 @@
+@use "../theme/fonts";
+@use "../theme/colors";
+
+main {
+  background-color: colors.$primary;
+  padding: 3em 4%;
+}
